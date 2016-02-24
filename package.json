@@ -1,6 +1,6 @@
 {
   "name": "letenv",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Loads environment variables from `.env` if present.",
   "bin": "cli.js",
   "main": "index.js",
