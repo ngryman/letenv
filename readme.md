@@ -8,13 +8,16 @@
 > Loads environment variables from `.env` if present.
 
 
+*letenv* does what it advertises. The only difference between other `.env` loaders is that it can be used via `cli` and wrap a process passed as argument. This is really useful when you want to load environement variables along your test runner for example.
+
+
 ## Install
 
-```bash
-// cli
+```sh
+# cli
 npm install -g letenv
 
-// api
+# api
 npm install --save letenv
 ```
 
@@ -23,7 +26,10 @@ npm install --save letenv
 ### CLI
 
 ```sh
-letenv
+letenv [command] [arguments]
+
+# i.e
+letenv nyc ava
 ```
 
 ### API
@@ -31,7 +37,7 @@ letenv
 ```javascript
 require('letenv')()
 
-// => process.env is not populated
+// => process.env is now populated
 ```
 
 ## `.env` file
