@@ -5,7 +5,7 @@
 [codecov-image]: https://img.shields.io/codecov/c/github/ngryman/letenv.svg
 [codecov-url]: https://codecov.io/github/ngryman/letenv
 
-> Loads environment variables from `.env` if present.
+> CLI environment variables loader.
 
 
 *letenv* does what it advertises. The only difference between other `.env` loaders is that it can be used via `cli` and wrap a process passed as argument. This is really useful when you want to load environement variables along your test runner for example.
