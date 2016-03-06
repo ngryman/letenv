@@ -1,7 +1,7 @@
 {
   "name": "letenv",
   "version": "0.2.0",
-  "description": "Loads environment variables from `.env` if present.",
+  "description": "CLI environment variables loader.",
   "bin": "cli.js",
   "main": "index.js",
   "scripts": {
@@ -17,8 +17,11 @@
     "env",
     ".env",
     "environement",
+    "variable",
     "load",
+    "loader",
     "config",
+    "configuration",
     "cli"
   ],
   "author": "Nicolas Gryman <ngryman@gmail.com> (http://ngryman.sh/)",
