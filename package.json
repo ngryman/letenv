@@ -27,7 +27,7 @@
   "author": "Nicolas Gryman <ngryman@gmail.com> (http://ngryman.sh/)",
   "license": "MIT",
   "dependencies": {
-    "foreground-child": "^1.3.5"
+    "foreground-child": "^1.5.5"
   },
   "devDependencies": {
     "ava": "^0.17.0",
