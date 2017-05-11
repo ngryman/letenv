@@ -1,5 +1,7 @@
 # letenv [![travis][travis-image]][travis-url] [![codecov][codecov-image]][codecov-url]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ngryman/letenv.svg)](https://greenkeeper.io/)
+
 [travis-image]: https://img.shields.io/travis/ngryman/letenv.svg?style=flat
 [travis-url]: https://travis-ci.org/ngryman/letenv
 [codecov-image]: https://img.shields.io/codecov/c/github/ngryman/letenv.svg
