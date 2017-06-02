@@ -35,6 +35,6 @@
     "codecov.io": "^0.1.6",
     "eslint": "^3.11.0",
     "eslint-config-ngryman": "^1.0.0",
-    "nyc": "^10.0.0"
+    "nyc": "^11.0.1"
   }
 }
