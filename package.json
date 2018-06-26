@@ -1,7 +1,7 @@
 {
   "name": "letenv",
   "version": "0.2.0",
-  "description": "CLI environment variables loader.",
+  "description": "Loads environment variables from .env.",
   "bin": "cli.js",
   "main": "index.js",
   "scripts": {
