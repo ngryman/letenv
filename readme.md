@@ -1,6 +1,6 @@
 # letenv [![travis][travis-image]][travis-url] [![codecov][codecov-image]][codecov-url]
 
-[travis-image]: https://img.shields.io/travis/ngryman/letenv.svg?style=flat
+[travis-image]: https://img.shields.io/travis/ngryman/letenv.svg
 [travis-url]: https://travis-ci.org/ngryman/letenv
 [codecov-image]: https://img.shields.io/codecov/c/github/ngryman/letenv.svg
 [codecov-url]: https://codecov.io/github/ngryman/letenv

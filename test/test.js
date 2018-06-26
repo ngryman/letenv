@@ -14,7 +14,12 @@ test('load .env', async t => {
 
 test('do nothing if no .env file is present', async t => {
   process.chdir('..')
-  await lenv()
+  try {
+    await lenv()
+  }
+  catch (error) {
+    t.is(error.message, 'ENOENT: no such file or directory, open \'.env\'')
+  }
   process.chdir(__dirname)
 })
 
